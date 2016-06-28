@@ -22,7 +22,7 @@ time, mark, audio, video {
 
 
 body {
-    background-color: LightGray;
+    /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -44,9 +44,10 @@ ul, menu, dir{
 	-webkit-margin-end: 0px;
 	-webkit-padding-start: 40px;
 }
-.nav-content{
+.content{
 	padding: 0 0.938rem;
 	margin: 0 auto;
+	width: 970px;
 	min-width: 37.5rem;
 }
 .top-nav{
@@ -59,7 +60,7 @@ ul, menu, dir{
 .top-nav .logo{
 	height: 4.375rem;
 }
-.top-nav > .nav-content{
+.top-nav >.content{
 	height: 4.375rem;
 }
 .top-nav .links{
@@ -79,4 +80,57 @@ ul, menu, dir{
 .top-nav .links li:hover{
 	cursor: pointer;
 	color: #333;
+}
+
+
+/*Inroduction area*/
+
+.intro{
+	background-image: url('../image/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+.intro h1,
+.intro h3 {
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+}
+
+.intro h1{
+	margin-top:17.5rem;
+	font-size: 3.125rem;
+}
+.intro h3{
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+/*Intro Buttons*/
+
+button{
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: #fff;
+	font-size: 1.125rem;
+
+}
+button:hover{
+	cursor: pointer;
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+}
+
+.intro .buttons{
+	color: #fff;
+	text-align: center;
+	margin-top: 1.563rem;
 }
