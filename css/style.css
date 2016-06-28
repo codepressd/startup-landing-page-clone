@@ -49,6 +49,7 @@ ul, menu, dir{
 	margin: 0 auto;
 	width: 970px;
 	min-width: 37.5rem;
+
 }
 .top-nav{
 	background-color: #fff;
@@ -133,4 +134,28 @@ button:hover{
 	color: #fff;
 	text-align: center;
 	margin-top: 1.563rem;
+}
+/*Section area*/
+.three-icons{
+	margin-top: 6.5rem;
+}
+.three-icons h1,
+.three-icons h3{
+	text-align: center;
+	padding-top: 2rem;
+}
+.three-icons h3{
+	font-weight: 300;
+	font-size: 1.3rem;
+}
+.section3{
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 3.5rem;
+	
+}
+.sec-img{
+	width: 50%;
 }
