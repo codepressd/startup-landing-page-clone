@@ -159,3 +159,27 @@ button:hover{
 .sec-img{
 	width: 50%;
 }
+
+/*Footer*/
+
+footer{
+	margin-top: 4rem;
+	text-align: center;
+	padding: 0 0 4rem;
+}
+
+footer h4{
+	padding-top: 2.5rem;
+
+}
+
+.fontawesome{
+	min-height: 100px;
+	-webkit-padding-start: 0px;
+}
+
+.fontawesome li{
+	display: inline-block;
+	font-size: 3.5rem;
+	padding: 15px;
+}
